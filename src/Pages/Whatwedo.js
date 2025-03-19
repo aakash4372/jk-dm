@@ -57,7 +57,7 @@ const Whatwedo = () => {
   }, [isInView]);
 
   return (
-    <div className="whatwedo-section meet-the-team-section" ref={sectionRef}>
+    <div className="whatwedo-section" ref={sectionRef}>
       <Container className="my-5">
         <Row className="align-items-center">
           {/* Left Side: Content */}
@@ -109,7 +109,6 @@ const Whatwedo = () => {
           highlightClass="highlighted"
         />
       </Container>
-      <div className="bottom-wave"></div>
     </div>
   );
 };
