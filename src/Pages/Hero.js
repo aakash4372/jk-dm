@@ -53,7 +53,7 @@ const HeroSection = () => {
                 animate={isInView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.7 }}
               >
-                We
+                Your
               </motion.h4>
 
               <motion.h4
